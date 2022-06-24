@@ -1,0 +1,32 @@
+#show_sketch{
+    float: right;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+body{
+    background:url("https://i.pinimg.com/736x/81/68/8c/81688cca6ac12769e6eb7554f4946691--stickers.jpg");
+}
+
+h1,h3,span{
+    color: gold;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    padding-top: 2px;
+    padding-left: 120px;
+    font-size: 50px;
+}
+
+#score{
+    font-size: 30px;
+    margin-right: 65px;
+    float: right;
+}
+
+#timer{
+    font-size: 30px;
+    margin-right: 1255px;
+    float: right;
+}
