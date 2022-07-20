@@ -10,6 +10,14 @@ answer_holder = "";
 
 score = 0;
 
+random_no = Math.floor((Math.random()*quick_draw_data_set.length)+1);
+
+console.log(quick_draw_data_set[random_no]);
+
+sketch = quick_draw_data_set[random_no];
+
+document.getElementById("sketch_to_be_drawn").innerHTML = "Sketch to be drawn";
+
 function setup(){
     canvas = createCanvas(400,400);
     canvas.position(555,280);
@@ -17,11 +25,6 @@ function setup(){
 }
 
 function updateCanvas(){
-    random_no = Math.floor((Math.random()*quick_draw_data_set.length)+1);
-    console.log(quick_draw_data_set[random_no])
-    sketch = quick_draw_data_set[random_no];
-
-    document.getElementById("sketch_to_be_drawn").innerHTML = "Sketch to be drawn";
 }
 
 function draw(){
